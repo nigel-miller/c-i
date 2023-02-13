@@ -30,6 +30,8 @@ jobs:
         npm install remark-cli remark-preset-lint-consistent
         npx remark . --use remark-preset-lint-consistent --frail
 
+_underscore_
+
 build:
     runs-on: ubuntu-latest
     steps:
